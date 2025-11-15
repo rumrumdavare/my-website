@@ -70,3 +70,62 @@ a {
     color: #6b7280;
     border-top: 1px solid #e5e7eb;
 }
+
+.cv-download {
+    display: inline-block;
+    margin: 1rem 0;
+    padding: 0.6rem 1rem;
+    background-color: #111827;
+    color: #f9fafb;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.cv-download:hover {
+    background-color: #374151;
+}
+
+.project-list {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.project-card {
+    padding: 1rem 1.2rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.project-card h2 {
+    margin: 0 0 0.5rem 0;
+}
+
+.project-card a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+.contact-icons {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.icon-link svg {
+    width: 40px;
+    height: 40px;
+    transition: opacity 0.2s ease;
+}
+
+.icon-link:hover svg {
+    opacity: 0.7;
+    cursor: pointer;
+}

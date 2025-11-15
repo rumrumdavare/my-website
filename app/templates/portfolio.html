@@ -4,5 +4,29 @@
 
 {% block content %}
 <h1>Portfolio</h1>
-<p>Here we’ll list your main projects (AI Sales Assistant, Fertilizer Analysis, etc.) with descriptions and links.</p>
+
+<p>Here are selected projects showcasing my work across analytics, AI tools, and data engineering.</p>
+
+<div class="project-list">
+
+    <div class="project-card">
+        <h2>AI Sales Assistant (LLM Agent)</h2>
+        <p>
+            A Multi-Tool LangChain agent that uses RAG, SQL, and vector database to generate 
+            customizable pre-call sales briefs. Integrates with a structured CRM dataset and supports 
+            multi-step reasoning.
+        </p>
+        <a href="https://github.com/rumrumdavare/Sales-Assistant" target="_blank">View on GitHub →</a>
+    </div>
+
+    <div class="project-card">
+        <h2>Fertilizer Consumption Explorer</h2>
+        <p>
+            A data app that visualizes fertilizer consumption across countries using World Bank APIs, 
+            Plotly, and Streamlit. Includes trend analysis and export tools.
+        </p>
+        <a href="https://github.com/rumrumdavare/fertilizer-analysis" target="_blank">View on GitHub →</a>
+    </div>
+</div>
+
 {% endblock %}
