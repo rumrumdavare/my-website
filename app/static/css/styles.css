@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background-color: #f7f7fa;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.site-header {
+    background-color: #111827;
+    color: #f9fafb;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.nav a {
+    margin-left: 1rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.95rem;
+    color: #e5e7eb;
+}
+
+.nav a.active,
+.nav a:hover {
+    background-color: #374151;
+    color: #f9fafb;
+}
+
+.hero {
+    padding: 2rem 0;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #4b5563;
+}
+
+.site-footer {
+    margin-top: 3rem;
+    padding: 1rem 0;
+    font-size: 0.85rem;
+    color: #6b7280;
+    border-top: 1px solid #e5e7eb;
+}
