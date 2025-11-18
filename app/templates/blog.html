@@ -3,14 +3,28 @@
 {% block title %}Blog · Ramani Davare{% endblock %}
 
 {% block content %}
-<h1>Blog</h1>
-<p>Here are my writings from my WordPress blog:</p>
+<h1>Ideas and Reflections</h1>
+<p>Thoughts, essays, personal notes, and ideas that I'm exploring.</p>
 
-<iframe 
-    src="https://rumrumwrites.wordpress.com" 
-    width="100%" 
-    height="800px"
-    style="border:none;">
-</iframe>
+<div class="blog-card-grid">
+    {% for post in posts %}
+    <a href="/blog/{{ post.slug }}" class="blog-card">
+        <p class="blog-card-category">
+            {% if post.category == 'ideas-and-reflections' %}Ideas & Reflections{% else %}Stories & Poems{% endif %}
+        </p>
+        <h2>{{ post.title }}</h2>
+        <p class="blog-card-excerpt">{{ post.excerpt }}</p>
+        <p class="blog-card-date">{{ post.date }}</p>
+    </a>
+    {% endfor %}
+</div>
+
+<hr style="margin-top:3rem;">
+
+<p style="margin-top:2rem; font-size:0.9rem; color:#6b7280;">
+    Interested in my older creative works?  
+    <a href="https://rumrumwrites.wordpress.com" target="_blank">Visit my old blog →</a>
+</p>
+
 
 {% endblock %}

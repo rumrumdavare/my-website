@@ -4,6 +4,7 @@ from fastapi.templating import Jinja2Templates
 from fastapi.requests import Request
 
 from .routers import pages
+from .routers import blog
 
 app = FastAPI()
 
@@ -21,3 +22,4 @@ def read_root(request: Request):
 
 
 app.include_router(pages.router)
+app.include_router(blog.router)

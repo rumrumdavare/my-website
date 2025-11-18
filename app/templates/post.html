@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}{{ post.title }} · Ramani Davare{% endblock %}
+
+{% block content %}
+<article class="blog-post">
+    <h1>{{ post.title }}</h1>
+    <p class="post-meta">{{ post.date }}</p>
+
+    <div class="post-body">
+        {{ post.html | safe }}
+    </div>
+
+    {% if post.tags %}
+    <p class="post-tags">
+        Tags:
+        {% for t in post.tags %}
+            <span class="tag-pill">{{ t }}</span>
+        {% endfor %}
+    </p>
+    {% endif %}
+</article>
+{% endblock %}
