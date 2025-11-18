@@ -23,14 +23,6 @@ def portfolio_page(request: Request):
     )
 
 
-@router.get("/blog")
-def blog_page(request: Request):
-    return templates.TemplateResponse(
-        "blog.html",
-        {"request": request, "page": "blog"},
-    )
-
-
 @router.get("/contact")
 def contact_page(request: Request):
     return templates.TemplateResponse(

@@ -1,10 +1,16 @@
 ---
-title: Designing Minds: AI Precision and Human Upbringing
-date: 18-11-2025
-category: ideas-and-reflections
-tags: [AI, Humans, Development, Agentic AI, Children, Education]
-slug: designing-minds-ai-precision-and-human-upbringing
-excerpt:
+title: "Designing Minds: AI Precision and Human Upbringing"
+date: "2025-11-18"
+category: "ideas-and-reflections"
+tags: 
+    - "AI"
+    - "Humans"
+    - "Development"
+    - "Agentic AI"
+    - "Children"
+    - "Education"
+slug: "designing-minds-ai-precision-and-human-upbringing"
+excerpt: "We build AI with intention, yet raise children without the tools every adult needs. This is about that gap."
 ---
 
 ## Designing Minds: AI Precision and Human Upbringing
