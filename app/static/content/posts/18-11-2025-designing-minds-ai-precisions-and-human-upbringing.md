@@ -12,8 +12,7 @@ tags:
 slug: "designing-minds-ai-precision-and-human-upbringing"
 excerpt: "We build AI with intention, yet raise children without the tools every adult needs. This is about that gap."
 ---
-
-## Designing Minds: AI Precision and Human Upbringing
+#### Don't want to read? ([Watch it here →](https://youtu.be/oPqCU51qmxM))
 
 There is so much work, research, and money being poured into building AI systems.
 We design agents with precision. We argue about architectures. We stress-test their failures. We debate their ethics. We refine their reasoning. We obsess over their robustness.
@@ -101,7 +100,3 @@ Human in every direction.
 A reminder that every child deserves a beginning built with care,
 letting them thrive and succeed as adults —
 and become the real agents of their own lives.
-
----
-If you want to watch instead of read this article:
-([Watch it here →](https://youtu.be/oPqCU51qmxM))
